@@ -1,31 +1,18 @@
 {
-	"schemaVersion": 1,
-	"id": "modid",
-	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.example.ExampleMod"
-		]
-	},
-	"mixins": [
-		"modid.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.20.1",
-		"minecraft": "~1.14.4",
-		"java": ">=8",
-		"fabric": "*"
-	}
+  "schemaVersion": 1,
+  "id": "meucliente",
+  "version": "5.0.0",
+  "name": "MeuCliente V5",
+  "description": "Menu de modulos em tres colunas aberto com F8.",
+  "authors": ["Voce"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.meucliente.MeuClienteMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+    "minecraft": "1.14.x"
+  }
 }
